@@ -1,0 +1,24 @@
+---
+title: "rs-ws-01-2"
+author: "Groll, J.; Litzinger, M.; Schmidt, S.; Schwede, S."
+date: "26 Oktober 2016"
+output: html_document
+---
+
+## LIDAR derived data as raster pictures
+
+Tasks of this group were to derive two kinds of raster pictures from the offered LIDAR datasets.
+
+Task 1) Create a raster to demonstrate the height ranges between the lowest and highest LIDAR returns in each raster cell.
+
+The result was aquired by creating a raster of the ground returns and one of the height returns, both with "LAS-Dataset to Raster", and then subtract the ground one from the height one, done with "Raster-Calculator".
+
+Result:
+![LIDAR_height_range_raster](D:\Schmidt_S_Github Repositories/Schmidt_S_Github_Repositories_General/Remote Sensing/Data/hight_range.JPG)
+
+Task 2) Create a raster to demonstrate the number of LIDAR returns in each cell originating from all returns except those of the ground returns.
+
+The result was created by using the "LAS-Dataset Statistics" operation.
+
+Result:
+![LIDAR_point_intensity_raster](D:\Schmidt_S_Github Repositories/Schmidt_S_Github_Repositories_General/Remote Sensing/Data/pointcloud.JPG)
