@@ -1,0 +1,25 @@
+---
+title: "gi-ws-01"
+author: "Groll, J.; Litzinger, M.; Schmidt, S.; Schwede, S."
+date: "31 Oktober 2016"
+output: html_document
+---
+
+## GIS worksheet 01
+
+Task one was to open The given layer file "Lidar Intensity, 5m" either with QGIS or SAGA and then reproject it into the so called "Pseudo-Mercator Porjection".
+
+Task two was to document any problems occuring during the process of task one as well as any solution strategies.
+
+
+- I used QGIS to open the file. I couldn't do this via the "Open"-option in the top controll bar of QGIS, but it was easy to open the
+  file with the help of the source folder overview on the left side of the interface.
+
+- After that I searched for an option to reproject the layer but I found none that clearly stated its ability to reproject. I used
+  Google to find a walkthrough that helped me to find the overview of other coordinate systems the layer could be projected into.
+
+- The final problem was to find the option "Pseudo Mercator Projection". Searching the web for this formulation led to an english 
+  Wikipedia article "Web Mercator", which stated its official EPSG identification code as "EPSG:3857". This helped finding the 
+  targeted   projection and using it upon the layer. 
+  
+  Mission accomplished.
